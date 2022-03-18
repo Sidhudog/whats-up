@@ -1,0 +1,37 @@
+#row{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        justify-content:space-evenly;
+        height: 100%;
+}
+#column1{
+width: 35rem;
+}
+
+#column2{
+    width: 35rem;
+}
+
+.web{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content:space-around;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    #row{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        justify-content:space-evenly;
+        height: 100%;
+        align-items: center;
+    }
+    
+  }
+
+
